@@ -25,7 +25,7 @@ The image directly above is a snipped image from the starter code. In this direc
 
 The image directly above is a snipped image from the starter code. In this directly image above, the the ARMA model results are given. The discrepancies in values between the starter code and the student-author's generated answers are provided below in light blue underline so as to make reading by the Instructor Grader easier.
 
-![student generated ARIMA](images/ts/arima_student_blue.jpg)
+![student generated ARIMA](images/ts/ARIMA_student_blue.jpg)
 
 
 ### GARCH Discrepancies
