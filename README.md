@@ -30,6 +30,13 @@ The image directly above is a snipped image from the starter code. In this direc
 
 ### GARCH Discrepancies
 
+Besides the discrepancies in date of execution of test (underlined in blue), the student-author could find no other discrepancies between the starter code answer key and the student-author's generated answers.
+
+![answer for GARCH](images/ts/GARCH_answer.PNG)
+
+![student-generated GARCH](images/ts/GARCH_student.PNG)
+
+
 
 ## Regression
 
