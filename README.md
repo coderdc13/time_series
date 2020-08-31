@@ -40,11 +40,11 @@ There were at least two (2) discrepancies identified. One conflict was the diffe
 
 ### X Train Discrepancies
 
-![answer for X_train dataset](images/regr/answer_X_train_1218.PNG)
+![answer for X_train dataset](images/regr/answer_X_train_1218_rows.PNG)
 
 The image directly above is a snipped image from the starter code. In this image directly above, there are 1218 entries. This set conflicts somewhat with the student author's answer that is directly below in this section and pasted.
 
-![student generated X_train dataset](images/regr/student_X_train_966.PNG)
+![student generated X_train dataset](images/regr/student_X_train_966_rows.PNG)
 
 
 ### Root Mean Squared Error (RMSE)
