@@ -1,11 +1,33 @@
 # time_series
-time series analysis
+# Time Series Analysis
 
 
 # General Introduction
 
 
 ## Time Series
+
+
+### ARMA
+
+![student generated ARMA](images/ts/arma_student_blue.PNG)
+
+
+
+It could be stated that the model does not fit the data.
+
+### ARIMA
+
+
+![student generated ARIMA](images/ts/ARIMA_student_blue.jpg)
+
+
+Again, as for ARMA, for ARIMA, it could be stated that the model does not fit the data.
+
+### GARCH
+
+
+![student-generated GARCH](images/ts/GARCH_student.PNG)
 
 
 ## Time Series Discrepancies
@@ -41,6 +63,15 @@ Besides the discrepancies in date of execution of test (underlined in blue), the
 ## Regression
 
 
+### Root Mean Squred Error (RMSE)
+
+
+![student generated rmse](images/regr/student_rmse.PNG)
+
+
+The homework readme file stated that "Out-of-sample data is data that the model hasn't seen before (Testing Data)." Also, the homework readme file stated that "In-sample data is data that the model was trained on (Training Data)." 
+
+
 ## Regression Discrepancies
 
 There were at least two (2) discrepancies identified. One conflict was the difference in the X_train dataset between the starter code and the student-author generated version. The other conflict was the difference in the Root Mean Squared Error (RMSE) between the starter code and the student-author generated version.
@@ -54,7 +85,7 @@ The image directly above is a snipped image from the starter code. In this image
 ![student generated X_train dataset](images/regr/student_X_train_966_rows.PNG)
 
 
-### Root Mean Squared Error (RMSE)
+### Discrepancies for Root Mean Squared Error (RMSE)
 
 
 ![answer for rmse](images/regr/answer_rmse.PNG)
