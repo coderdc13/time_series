@@ -48,7 +48,7 @@ Based on the final plot (the GARCH graph), one could state that volatility may i
 
 Based on the model evaluation, would you feel confident in using these models for trading?
 
-The student-author would feel confident in using these models for trading only after repeating these models with respect to four hour, two hour, hour, thirty minute, fifteen minute, five minute, and minute timeframes, looking for alignment in patterns, and back-testing entry points from the alignment in patterns. Failure to repeat these models on at least all of the above additional timeframes could lead the buyer into a situation in which volatility would destroy the position (whip-out), a situation in which the buyer would be forced into a long term hold, or some other undesirable situation.
+The student-author would feel confident in using these models for trading only after repeating these models with respect to four hour, two hour, hour, thirty minute, fifteen minute, five minute, and minute timeframes, looking for alignment in patterns, and back-testing entry points from the alignment in patterns. Failure to repeat these models on at least all of the above additional timeframes could lead the buyer into a situation in which volatility would destroy the position (whip-out), a situation in which the buyer would be forced into a long term hold, or some other undesirable situation. Repeating the applications for the model will help determine entry and exit points for the trade.
 
 ## Time Series Discrepancies
 
@@ -95,9 +95,7 @@ In this section, a model for prediction was formed from training data. Then the 
 
 Does this model perform better or worse on out-of-sample data compared to in-sample data?
 
-The homework readme file stated that "Out-of-sample data is data that the model hasn't seen before (Testing Data)." Also, the homework readme file stated that "In-sample data is data that the model was trained on (Training Data)." 
-
-This regression model is exactly like the example that Instructor GS gave in class. Just like that class example, the root mean squared error of the out-of-sample was less than the root mean squared error of the in-sample. In this case, the in-sample RMSE is 0.5963660785073426. For the out-of-sample, the RMSE is 0.4154832784856737. The model may fit better with the data that the model hasn't seen before instead of the data on which the model was trained.
+The homework readme file stated that "Out-of-sample data is data that the model hasn't seen before (Testing Data)." Also, the homework readme file stated that "In-sample data is data that the model was trained on (Training Data)." This regression model is exactly like the example that Instructor GS gave in class. Just like that class example, the root mean squared error of the out-of-sample was less than the root mean squared error of the in-sample. In this case, the in-sample RMSE is 0.5963660785073426. For the out-of-sample, the RMSE is 0.4154832784856737. The model may fit better with the data that the model "hadn't seen before" instead of the data on which the model was trained. It was stated in class that this situation is rare, ideal, and more desirable than the case in which the model fits better with the data upon which the model was composed instead of the data on which the model had not been used.
 
 ## Regression Discrepancies
 
@@ -124,6 +122,6 @@ The image directly above is a snipped image from the starter code. The student a
 
 # Conclusion
 
-It is important to leverage different models before deciding on a market transaction. Regardless of whether the P values exceed the given standard value of .05, ARMA, ARIMA, and GARCH models may help a purchase/sell/hold decision. In addition, in it is important to evaluate the quality of a model by comparison of root mean squared error values from in-sample (training) data and out-of-sample (testing) data.
+It is important to leverage different models before deciding on a market transaction. Regardless of whether the P values exceed the given standard value of .05, ARMA, ARIMA, and GARCH models may help a purchase/sell/hold decision. In addition, in it is important to evaluate the quality of a model by comparison of root mean squared error values from in-sample (training) data and out-of-sample (testing) data. This assignment led the student-author to compose models, test the models, and leverage the models in the decision making process.
 
 (Nota Bene: 99.99% of this work comes directly from listed sources, class material (including and especially the starter notebooks) Instructor GS, Instructor KS, Instructor AN, and Tutor, Ms. LT!)
