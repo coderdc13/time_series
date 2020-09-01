@@ -4,6 +4,7 @@
 
 # General Introduction
 
+This readme file is divided into three main sections, the time series analysis, the regression analysis, and the general conclusion. The time series analysis describes the main forecasting models: autoregressive moving average (ARMA), autoregressive integrated moving average (ARIMA), generalized autoregressive conditional heteroskedasticity (GARCH). For the regression analysis, the root mean squared error (RMSE) for a model was compared in terms of out-of-sample/test data and in-sample/trainer data. The general conclusion covers the conclusions from the points in this readme file.
 
 ## Time Series
 
