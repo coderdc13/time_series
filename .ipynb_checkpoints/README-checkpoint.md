@@ -30,6 +30,14 @@ Again, as for ARMA, for ARIMA, it could be stated that the model does not fit th
 ![student-generated GARCH](images/ts/GARCH_student.PNG)
 
 
+### Questions for Time Series Analysis
+
+Based on your time series analysis, would you buy the yen now?
+
+Is the risk of the yen expected to increase or decrease?
+
+Based on the model evaluation, would you feel confident in using these models for trading?
+
 ## Time Series Discrepancies
 
 ### ARMA Discrepancies
@@ -71,6 +79,11 @@ Besides the discrepancies in date of execution of test (underlined in blue), the
 
 The homework readme file stated that "Out-of-sample data is data that the model hasn't seen before (Testing Data)." Also, the homework readme file stated that "In-sample data is data that the model was trained on (Training Data)." 
 
+### Question for Regression Analysis
+
+Does this model perform better or worse on out-of-sample data compared to in-sample data?
+
+This regression model is exactly like the example that Instructor GS gave in class. Just like that class example, the root mean squared error of the out-of-sample was less than the root mean squared error of the in-sample. In this case, the in-sample RMSE is 0.5963660785073426. For the out-of-sample, the RMSE is 0.4154832784856737. The model may fit better with the data that the model hasn't seen before instead of the data on which the model was trained.
 
 ## Regression Discrepancies
 
