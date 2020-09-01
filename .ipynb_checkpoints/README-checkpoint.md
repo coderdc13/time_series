@@ -8,6 +8,7 @@ This readme file is divided into three main sections, the time series analysis, 
 
 ## Time Series
 
+The time series notebook focused mainly on ARMA, ARIMA, and GARCH modeling.
 
 ### ARMA
 
@@ -15,7 +16,7 @@ This readme file is divided into three main sections, the time series analysis, 
 
 
 
-It could be stated that the model does not fit the data.
+In general, ARMA models work best on stationary data (http://www-stat.wharton.upenn.edu/~stine/insr260_2009/lectures/arma_forc.pdf). It could be stated that "the model does not fit the data" in this specific case. This is because the values in the P>|z| column of the ARMA Model Results are all much greater than .05. However, in the graph "Forecast for Five Day Returns," considering that one may consider the y axis as p values, this graph may be used to make the case that the model increases in predictive value over time.
 
 ### ARIMA
 
@@ -23,7 +24,7 @@ It could be stated that the model does not fit the data.
 ![student generated ARIMA](images/ts/ARIMA_student_blue.jpg)
 
 
-Again, as for ARMA, for ARIMA, it could be stated that the model does not fit the data.
+One may consider ARIMA to be "the most general class of models for forecasting a time series" (https://people.duke.edu/~rnau/411arim.htm). Again, as for ARMA, for ARIMA, it could be stated that the model does not fit the data in this specific case. Just like for the ARMA Model Results, in the ARIMA Model Results, the values in the P>|z| column of the model are all much greater than .05. Still, 
 
 ### GARCH
 
