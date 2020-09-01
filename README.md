@@ -72,7 +72,7 @@ The image directly above is a snipped image from the starter code. In this direc
 
 ### GARCH Discrepancies
 
-Besides the discrepancies in date of execution of test (underlined in blue), the student-author could find no other discrepancies between the starter code answer key and the student-author's generated answers.
+Besides the discrepancies in date of execution of test (underlined in blue for enhanced legibility by the Instructor Grader), the student-author could find no other discrepancies between the starter code answer key and the student-author's generated answers.
 
 ![answer for GARCH](images/ts/GARCH_answer.PNG)
 
@@ -122,6 +122,6 @@ The image directly above is a snipped image from the starter code. The student a
 
 # Conclusion
 
-It is important to leverage different models before deciding on a market transaction. Regardless of whether the P values exceed the given standard value of .05, ARMA, ARIMA, and GARCH models may help a purchase/sell/hold decision. In addition, in it is important to evaluate the quality of a model by comparison of root mean squared error values from in-sample (training) data and out-of-sample (testing) data. This assignment led the student-author to compose models, test the models, and leverage the models in the decision making process.
+It is important to leverage different models before deciding on a market transaction. Regardless of whether the P values exceed the given standard value of .05, ARMA, ARIMA, and GARCH models may help a purchase/sell/hold decision. In addition, in it is important to evaluate the quality of a model by comparison of root mean squared error values from in-sample (training) data and out-of-sample (testing) data. This assignment led the student-author to compose models, test the models, and leverage the models in the decision making process. In terms of discrepancies, Instructor AN kindly noted that differing values may come from a controlled identified item in the starter code. It is important to heed the warnings of the Instructor Corps and preserve one's own personal judgment in terms of market decisions; models may help, but one cannot depend on models for trading decisions.
 
 (Nota Bene: 99.99% of this work comes directly from listed sources, class material (including and especially the starter notebooks) Instructor GS, Instructor KS, Instructor AN, and Tutor, Ms. LT!)
